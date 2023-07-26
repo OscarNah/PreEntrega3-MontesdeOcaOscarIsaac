@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*Encabezado*/
+.logo {
+    width: 270px;
+    max-width: 100%;
+}
+.carritoBlanco {
+    width: 40px;
+}
+.header {
+    border-bottom: 1px solid black;
+    position:sticky;
+    top: 0;
+}
+.text-white
+{
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+.text-page {
+    color: #B18F5A;
+    font-size: medium;
+}
