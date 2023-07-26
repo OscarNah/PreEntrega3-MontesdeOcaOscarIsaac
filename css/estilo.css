@@ -9,6 +9,9 @@
     box-sizing: border-box;
 }
 /*--------------------------------------------------------------------*/
+main p{
+    font-size: x-large;
+}
 /*--------------------------------------------------------------------*/
 /*Encabezado*/
 .logo {
@@ -26,7 +29,7 @@
 .text-white
 {
     font-weight: bold;
-    color: white;
+    color: #B18F5A;
     font-size: large;
 }
 .text-page {
