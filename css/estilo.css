@@ -21,18 +21,50 @@ main p{
 .carritoBlanco {
     width: 40px;
 }
-.header {
+header {
     border-bottom: 1px solid black;
     position:sticky;
     top: 0;
 }
-.text-white
+.text-whiteH
 {
     font-weight: bold;
-    color: #B18F5A;
-    font-size: large;
+    font-size: 1.5rem;
 }
 .text-page {
-    color: #B18F5A;
+    color: white;
     font-size: medium;
 }
+/*----------------------------------Pie de pagina---------------------*/
+
+.linea {
+    border-top: 1px solid #B18F5A;
+}
+
+.lineaLeft{
+    border-left: 1px solid #B18F5A;
+    padding: 0px 40px;
+}
+.siguenos {
+    color:#B18F5A;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.socialLinks a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+}
+
+.socialLinks a:hover {
+    background-color: #B18F5A;
+}
+/*----------------------------Pie de pagina---------------------------*/
