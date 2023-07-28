@@ -1,19 +1,61 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /*--------------------------------------------------------------------*/
-main p{
-    font-size: x-large;
+.textoGeneral{
+    font-size: large;
 }
-/*--------------------------------------------------------------------*/
-/*Encabezado*/
+html {
+  scroll-behavior: smooth;
+}
+/*----------------------------Globales-------------------------------*/
+.tituloPaginas{
+    text-align: center;
+    border-bottom: 3px solid black;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+.subTituloPaginas{
+    text-align: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+/* Carousel */
+.flecha{
+    background-color: grey;
+    opacity: 50%;
+    border-radius: 75%;
+}
+.flecha:hover{
+    background-color: black;
+}
+.brands{
+    padding: 10px 10px;
+    background-color: #ECEFF1;
+    border-radius: 1%;
+    width: 95%;
+    margin-bottom: 1rem;
+}
+.cardsWrapper{
+    display: flex;
+}
+.cardBrands{
+    margin: 0 .5em;
+    width: calc(100%/5);
+} 
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 15vw;
+}
+
+ /* Carousel */
+/*-------------------------Encabezado---------------------------------*/
+
 .logo {
     width: 270px;
     max-width: 100%;
@@ -21,36 +63,40 @@ main p{
 .carritoBlanco {
     width: 40px;
 }
-header {
-    border-bottom: 1px solid black;
+.header {
     position:sticky;
     top: 0;
+    left:0;
+    z-index: 3;
+
 }
-.text-whiteH
+.textHeader
 {
     font-weight: bold;
     font-size: 1.5rem;
 }
-.text-page {
-    color: white;
-    font-size: medium;
+.bgPage li a:hover{
+    background-color: #B18F5A;
+    border-radius: 75%;
 }
+/*-------------------------Encabezado---------------------------------*/
 /*----------------------------------Pie de pagina---------------------*/
-
 .linea {
     border-top: 1px solid #B18F5A;
 }
-
 .lineaLeft{
     border-left: 1px solid #B18F5A;
     padding: 0px 40px;
 }
-.siguenos {
-    color:#B18F5A;
-    margin-top: 5px;
-    padding-bottom: 10px;
+.colorBtn{
+    background-color: #B18F5A;
 }
-
+.colorBtn:hover{
+    background-color:#E1C373;
+}
+.socialLinks h3{
+    color:#B18F5A;
+}
 .socialLinks a {
     display: inline-block;
     min-height: 40px;
@@ -63,8 +109,26 @@ header {
     color: white;
     transition: all .5s ease;
 }
-
 .socialLinks a:hover {
     background-color: #B18F5A;
 }
 /*----------------------------Pie de pagina---------------------------*/
+/*---------------------------------Main-------------------------------*/
+.bienvenido{
+    background-color: #B18F5A;
+}
+/* Main /// Informacion*/
+.informacion{
+    background: #ECEFF1;
+}
+.textoInformacion{
+    font-size: small;
+    text-align: center;
+}
+.textoInformacion h3{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.informacionBox{
+    text-transform: none;
+}
