@@ -3,8 +3,8 @@
     font-size: large;
 }
 html {
-  scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+  }
 /*----------------------------Globales-------------------------------*/
 .tituloPaginas{
     text-align: center;
@@ -68,7 +68,6 @@ html {
     top: 0;
     left:0;
     z-index: 3;
-
 }
 .textHeader
 {
