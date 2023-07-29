@@ -2,6 +2,17 @@
 .textoGeneral{
     font-size: large;
 }
+
+.lineaDivisora{
+    border-bottom: 2px solid black;
+}
+
+.textoNegritas{
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+    margin: 10px 100px;
+}
 html {
     scroll-behavior: smooth;
   }
@@ -130,4 +141,13 @@ html {
 }
 .informacionBox{
     text-transform: none;
+}
+/*-------------------------------Contacto------------------------------*/
+.contactoFormulario{
+    background-color: #ECEFF1;
+}
+.formulario{
+    border: 1px solid black;
+    border-radius: 2%;
+    margin: 3rem;
 }
