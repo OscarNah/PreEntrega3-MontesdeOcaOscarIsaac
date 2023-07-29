@@ -63,6 +63,12 @@ html {
 .slide img{
     height: 15vw;
 }
+.imgBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 
  /* Carousel */
 /*-------------------------Encabezado---------------------------------*/
@@ -91,6 +97,7 @@ html {
 }
 /*-------------------------Encabezado---------------------------------*/
 /*----------------------------------Pie de pagina---------------------*/
+
 .linea {
     border-top: 1px solid #B18F5A;
 }
@@ -145,6 +152,7 @@ html {
 /*-------------------------------Contacto------------------------------*/
 .contactoFormulario{
     background-color: #ECEFF1;
+    border-radius: 1%;
 }
 .formulario{
     border: 1px solid black;
