@@ -45,8 +45,8 @@ html {
     padding: 10px 10px;
     background-color: #ECEFF1;
     border-radius: 1%;
-    width: 95%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    width: 85%;
 }
 .cardsWrapper{
     display: flex;
@@ -107,6 +107,8 @@ html {
 }
 .colorBtn{
     background-color: #B18F5A;
+    font-weight: bold;
+    color: white;
 }
 .colorBtn:hover{
     background-color:#E1C373;
@@ -158,4 +160,30 @@ html {
     border: 1px solid black;
     border-radius: 2%;
     margin: 3rem;
+}
+/*-------------------------------Carrito-------------------------------*/
+.carritoProductosLg{
+    padding: 10px 10px;
+}
+.carritoProductosMd{
+    padding: 10px 10px;
+}
+.carritoPago{
+    padding: 10px 10px;
+}
+
+@media (max-width: 1199.98px) {  
+    .carritoProductosLg {
+        display: none;
+    }
+}
+@media (min-width: 1199.98px) {  
+    .carritoProductosMd {
+        display: none;
+    }
+}
+
+.metodosPago ul li{
+    list-style: none;
+    text-decoration: none;
 }
