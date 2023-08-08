@@ -187,3 +187,15 @@ html {
     list-style: none;
     text-decoration: none;
 }
+/*------------------------------Ofertas----------------------------------*/
+
+@media (max-width: 1199.98px) {  
+    .ofertasLg {
+        display: none;
+    }
+}
+@media (min-width: 1199.98px) {  
+    .ofertasMd {
+        display: none;
+    }
+}
