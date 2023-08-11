@@ -1,312 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Computer Geeks - FAQ </title>
-    <link rel="shortcut icon" href="../img/logo.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Geeks - FAQ</title>
+    <link rel="shortcut icon" href="../img/logo.jpg" />
     <!-- Logotipos redes sociales -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- 1) BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"/>
     <!-- 2) CSS -->
-    <link rel="stylesheet" href="../css/estilo.css">
-</head>
+    <link rel="stylesheet" href="../css/estilo.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Inicia header -->
-    <header class=" header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black p-1  ">
-            <a class="navbar-brand" href="../index.html">
-                <img class="logo" src="../img/Logotipo.jpg" alt="Computer Geeks Logotipo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto textHeader bgPage">
-                    <li class="nav-item">
-                        <a class="nav-link active link-light espaciado" aria-current="page" href="../index.html"> Inicio </a>
-                    </li>
-                    <li class="nav-item dropdown espaciado">
-                        <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu bg-black">
-                            <li><a class="dropdown-item link-light" href="../html/productos/escritorio.html">Pc's de
-                                    escritorio</a></li>
-                            <li><a class="dropdown-item link-light" href="../html/productos/laptops.html">Laptops</a>
-                            </li>
-                            <li><a class="dropdown-item link-light"
-                                    href="../html/productos/componentes.html">Componentes</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item espaciado">
-                        <a class="nav-link" href="../html/carrito.html">
-                            <img class="carritoBlanco" src="../img/carritoblanco.png" alt="carritoblanco">
-                        </a>
-                    </li>
-                    <li class="nav-item espaciado">
-                        <a class="nav-link link-light" href="../html/contacto.html"> Contacto </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black p-1">
+        <a class="navbar-brand" href="../index.html">
+          <img
+            class="logo"
+            src="../img/Logotipo.jpg"
+            alt="Computer Geeks Logotipo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto textHeader bgPage">
+            <li class="nav-item">
+              <a
+                class="nav-link active link-light espaciado"
+                aria-current="page"
+                href="../index.html"
+              >
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item dropdown espaciado">
+              <a
+                class="nav-link dropdown-toggle link-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu bg-black">
+                <li>
+                  <a
+                    class="dropdown-item link-light"
+                    href="../html/productos/escritorio.html"
+                    >Pc's de escritorio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item link-light"
+                    href="../html/productos/laptops.html"
+                    >Laptops</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item link-light"
+                    href="../html/productos/componentes.html"
+                    >Componentes</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item espaciado">
+              <a class="nav-link" href="../html/carrito.html">
+                <img
+                  class="carritoBlanco"
+                  src="../img/carritoblanco.png"
+                  alt="carritoblanco"
+                />
+              </a>
+            </li>
+            <li class="nav-item espaciado">
+              <a class="nav-link link-light" href="../html/contacto.html">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <!-- Termina header -->
 
     <!-- Inicia main -->
     <main>
-        <h2 class="tituloPaginas m-3 p-3"> Computer Geeks - FAQs </h2>
-
-        <section class="d-flex text-center align-items-center mb-3">
-            <div class="col-12 mx-auto">
-                <img src="../img/faq.jpg" alt="" class="img-fluid rounded-3">
-            </div>
-        </section>
-
-        <section class="vh=100 bg-light d-flex align-items-center mb-3">
-            <div class="h-75 container-sm mx-auto">
-                <div class="accordion m-3" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                aria-controls="panelsStayOpen-collapseOne">
-                                <i class="bi bi-person-circle" style="font-size: 2rem; color:black;"></i>
-                                <span class="px-3">¿Necesito una cuenta para crear mi pedido?</span>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <span>No es necesario tener cuenta para comprar ya que al momento de estar en
-                                    el carrito debes llenar el formulario con tus datos de contacto, dirección de envio
-                                    y correo electronico </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseTwo">
-                                <i class="bi bi-currency-dollar" style="font-size: 2rem; color:black;"></i>
-                                <span class="px-3">¿Qué metodos de pago aceptamos?</span>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingTwo">
-                            <div class="accordion-body">
-                                <p>Aceptamos los siguientes metodos de pago:</p>
-                                <ul>
-                                    <li>Aceptamos Mercado pago con hasta 12 meses sin intereses en compras mayores a $
-                                        9,999 pesos mexicanos</li>
-                                    <li>Tarjetas de debito y credito (VISA)</li>
-                                    <li>Pago en efectivo en tiendas de conveniencia procesado por PayNet de OpenPay</li>
-                                    <li>Transferencias bancarias referenciadas SPEI procesados por OpenPay</li>
-                                </ul>
-                                <span> </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseThree">
-                                <i class="bi bi-truck" style="font-size: 2rem; color:black;"></i>
-                                <span class="px-3">¿Qué formas de envío manejamos?</span>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingThree">
-                            <div class="accordion-body">
-                                <p>Una vez procesado tu pago nosotros nos encargaremos de enviarte el producto por la
-                                    mejor opción de paquetería posible, y podrá ser por Fedex, Estafeta, Paquetexpress,
-                                    mensajería Corporativa Express, J&T.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseFour">
-                                <i class="bi bi-clock-fill" style="font-size: 2rem; color:black;"></i>
-                                <span class="px-3">¿Cuánto tiempo tardamos en enviar tu pedido?</span>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingFour">
-                            <div class="accordion-body">
-                                <p>La mayoría de las órdenes son enviadas el mismo día de confirmado su pago, pero en
-                                    ocasiones es necesario concentrar existencias de varios almacenes y el tiempo
-                                    pudiera variar de 24 a 48 horas, esto regularmente pasa en pedidos multipiezas, de
-                                    cualquier manera nosotros estaremos informándote el estado de tu pedido y enviando
-                                    los números de guía que estaremos utilizando.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseFive">
-                                <i class="bi bi-arrow-counterclockwise" style="font-size: 2rem; color:black;"></i>
-                                <span class="px-3">¿Puedo devolver mi pedido?</span>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingFive">
-                            <div class="accordion-body">
-                                <p>Si, contamos con una garantía de satisfacción total, que es aplicable 7 días después
-                                    de recibido tu pedido, en la cual puedes devolver tu pedido sin complicaciones. <br>
-                                    En todos los productos tienes 1 año de garantía (a menos que se especifique lo
-                                    contrario), en este tiempo siempre responderemos por tus productos.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseSix">
-                                <i class="bi bi-exclamation-octagon" style="font-size: 2rem; color:black;"></i>
-                                <span class="px-3">¿Cúales son las restricciones para la promo de envío grátis?</span>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingSix">
-                            <div class="accordion-body">
-                                <p>Siempre trataremos que tus envíos mayores a $2,000.00 pesos no tengan costo para ti,
-                                    sin embargo existen algunas restricciones para esta promoción. <br>
-                                    El envío sin costo no aplica para productos de alto volúmen y alto peso ya que son
-                                    considerados como productos con manejo especial. <br>
-                                    En la siguiente lísta se mencionan tales productos:
-                                <ul>
-                                    <li>Torres y tramos de torre</li>
-                                    <li>UPS (no break)</li>
-                                    <li>TVs y pantallas de plasma</li>
-                                    <li>Impresoras de alto volúmen</li>
-                                    <li>Racks de comunicaciones</li>
-                                    <li>Gabinetes de comunicaciones</li>
-                                    <li>Sillas, escritorios y mesas</li>
-                                    <li>Mástiles</li>
-                                    <li>Bobinas de cable especializado</li>
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseSeven">
-                                <i class="bi bi-person-circle" style="font-size: 2rem; color:black;"></i>
-                                <span class="px-3">¿Como solicito un Desktop custom?</span>
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingSeven">
-                            <div class="accordion-body">
-                                <span> Unicamente llena el formulario de contacto, donde nos indiques que es lo que buscas y en que podemos ayudarte. <br> Por favor llena la informacion que te solicitamos de manera correcta ya que con lo que nos brindes nos pondremos en contacto contigo para brindarte información acerca de lo que nos solicitas| </span>
-                            </div>
-                        </div>
-                    </div>
-
-
-
+      <section>
+        <div class="py-5 headerFaqs mb-5">
+          <h2 class="text-white textoBg text-center">Preguntas Frecuentes</h2>
+        </div>
+        <section
+          class="vh=100 bg-light d-flex align-items-center mb-3 container rounded-4" data-aos="flip-right" data-aos-duration="2000">
+          <div class="h-75 container-sm mx-auto">
+            <div class="accordion m-3" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    <i
+                      class="bi bi-person-circle"
+                      style="font-size: 2rem; color: black"
+                    ></i>
+                    <span class="px-3"
+                      >¿Necesito una cuenta para crear mi pedido?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <span
+                      >No es necesario tener cuenta para comprar ya que al
+                      momento de estar en el carrito debes llenar el formulario
+                      con tus datos de contacto, dirección de envio y correo
+                      electronico
+                    </span>
+                  </div>
                 </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    <i
+                      class="bi bi-currency-dollar"
+                      style="font-size: 2rem; color: black"
+                    ></i>
+                    <span class="px-3">¿Qué metodos de pago aceptamos?</span>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    <p>Aceptamos los siguientes metodos de pago:</p>
+                    <ul>
+                      <li>
+                        Aceptamos Mercado pago con hasta 12 meses sin intereses
+                        en compras mayores a $ 9,999 pesos mexicanos
+                      </li>
+                      <li>Tarjetas de debito y credito (VISA)</li>
+                      <li>
+                        Pago en efectivo en tiendas de conveniencia procesado
+                        por PayNet de OpenPay
+                      </li>
+                      <li>
+                        Transferencias bancarias referenciadas SPEI procesados
+                        por OpenPay
+                      </li>
+                    </ul>
+                    <span> </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    <i
+                      class="bi bi-truck"
+                      style="font-size: 2rem; color: black"
+                    ></i>
+                    <span class="px-3">¿Qué formas de envío manejamos?</span>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Una vez procesado tu pago nosotros nos encargaremos de
+                      enviarte el producto por la mejor opción de paquetería
+                      posible, y podrá ser por Fedex, Estafeta, Paquetexpress,
+                      mensajería Corporativa Express, J&T.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour"
+                  >
+                    <i
+                      class="bi bi-clock-fill"
+                      style="font-size: 2rem; color: black"
+                    ></i>
+                    <span class="px-3"
+                      >¿Cuánto tiempo tardamos en enviar tu pedido?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingFour"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      La mayoría de las órdenes son enviadas el mismo día de
+                      confirmado su pago, pero en ocasiones es necesario
+                      concentrar existencias de varios almacenes y el tiempo
+                      pudiera variar de 24 a 48 horas, esto regularmente pasa en
+                      pedidos multipiezas, de cualquier manera nosotros
+                      estaremos informándote el estado de tu pedido y enviando
+                      los números de guía que estaremos utilizando.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive"
+                  >
+                    <i
+                      class="bi bi-arrow-counterclockwise"
+                      style="font-size: 2rem; color: black"
+                    ></i>
+                    <span class="px-3">¿Puedo devolver mi pedido?</span>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingFive"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Si, contamos con una garantía de satisfacción total, que
+                      es aplicable 7 días después de recibido tu pedido, en la
+                      cual puedes devolver tu pedido sin complicaciones. <br />
+                      En todos los productos tienes 1 año de garantía (a menos
+                      que se especifique lo contrario), en este tiempo siempre
+                      responderemos por tus productos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseSix"
+                  >
+                    <i
+                      class="bi bi-exclamation-octagon"
+                      style="font-size: 2rem; color: black"
+                    ></i>
+                    <span class="px-3"
+                      >¿Cúales son las restricciones para la promo de envío
+                      grátis?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingSix"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Siempre trataremos que tus envíos mayores a $2,000.00
+                      pesos no tengan costo para ti, sin embargo existen algunas
+                      restricciones para esta promoción. <br />
+                      El envío sin costo no aplica para productos de alto
+                      volúmen y alto peso ya que son considerados como productos
+                      con manejo especial. <br />
+                      En la siguiente lísta se mencionan tales productos:
+                    </p>
+                    <ul>
+                      <li>Torres y tramos de torre</li>
+                      <li>UPS (no break)</li>
+                      <li>TVs y pantallas de plasma</li>
+                      <li>Sillas, escritorios y mesas</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseSeven"
+                  >
+                    <i
+                      class="bi bi-person-circle"
+                      style="font-size: 2rem; color: black"
+                    ></i>
+                    <span class="px-3">¿Como solicito un Desktop custom?</span>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseSeven"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingSeven"
+                >
+                  <div class="accordion-body">
+                    <span>
+                      Unicamente llena el formulario de contacto, donde nos
+                      indiques que es lo que buscas y en que podemos ayudarte.
+                      <br />
+                      Por favor llena la informacion que te solicitamos de
+                      manera correcta ya que con lo que nos brindes nos
+                      pondremos en contacto contigo para brindarte información
+                      acerca de lo que nos solicitas|
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </section>
+      </section>
     </main>
     <!-- Termina main -->
 
-
-
-
-
-
-
     <!-- Inicia fooder -->
     <footer class="bg-black link-light">
-        <div class="container pt-3">
-            <div class="row">
-                <div class="col-6 col-md-2 mb-3 ms-auto">
-                    <h5>Secciones</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 link-light">Inicio</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="../html/contacto.html"
-                                class="nav-link p-0 link-light">Contacto</a></li>
-                        <li class="nav-item mb-2"><a href="../html/carrito.html" class="nav-link p-0 link-light">
-                                Carrito </a></li>
-                        <li class="nav-item mb-2"><a href="../html/preguntasFrecuentes.html"
-                                class="nav-link p-0 link-light">FAQ</a></li>
-                    </ul>
-                </div>
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3 ms-auto">
+            <h5>Secciones</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="../index.html" class="nav-link p-0 link-light"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="../html/contacto.html" class="nav-link p-0 link-light"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="../html/carrito.html" class="nav-link p-0 link-light">
+                  Carrito
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../html/preguntasFrecuentes.html"
+                  class="nav-link p-0 link-light"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <div class="col-6 col-md-2 mb-3 ms-auto lineaLeft">
-                    <h5>Productos</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="../html/productos/escritorio.html"
-                                class="nav-link p-0 link-light">Pc' de escritorio</a></li>
-                        <li class="nav-item mb-2"><a href="../html/productos/laptops.html"
-                                class="nav-link p-0 link-light">Laptops</a></li>
-                        <li class="nav-item mb-2"><a href="../html/productos/componentes.html"
-                                class="nav-link p-0 link-light">Componentes</a></li>
-                    </ul>
-                </div>
+          <div class="col-6 col-md-2 mb-3 ms-auto lineaLeft">
+            <h5>Productos</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="../html/productos/escritorio.html"
+                  class="nav-link p-0 link-light"
+                  >Pc' de escritorio</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../html/productos/laptops.html"
+                  class="nav-link p-0 link-light"
+                  >Laptops</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../html/productos/componentes.html"
+                  class="nav-link p-0 link-light"
+                  >Componentes</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <div class="col-md-5 offset-md-1 mb-3 ms-auto lineaLeft">
-                    <form>
-                        <h5 class="text-center">Boletin de noticias</h5>
-                        <p class="text-center">Mantente actualizado de promociones y noticias importantes, suscríbete a
-                            nuestro boletín.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn colorBtn" type="button">Suscribirse</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="d-flex flex-column flex-sm-row justify-content-between p-3 my-0 linea">
-                <p>&copy; 2023 Computer Geeks.com.mx, Inc. Todos los derechos reservados.</p>
-                <ul class="list-unstyled d-flex socialLinks">
-                    <li class="ms-3"><a href="https://www.facebook.com/" target="_blank"><i
-                                class="fab fa-facebook"></i></a></li>
-                    <li class="ms-3"><a href="https://www.instagram.com/" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="ms-3"><a href="https://www.twitter.com/" target="_blank"><i
-                                class="fab fa-twitter"></i></a></li>
-                    <li class="ms-3"><a href="https://www.linkedin.com/" target="_blank"><i
-                                class="fab fa-linkedin"></i></a></li>
-                </ul>
-            </div>
+          <div class="col-md-5 offset-md-1 mb-3 ms-auto lineaLeft">
+            <form>
+              <h5 class="text-center">Boletin de noticias</h5>
+              <p class="text-center">
+                Mantente actualizado de promociones y noticias importantes,
+                suscríbete a nuestro boletín.
+              </p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn colorBtn" type="button">Suscribirse</button>
+              </div>
+            </form>
+          </div>
         </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between p-3 my-0 linea"
+        >
+          <p>
+            &copy; 2023 Computer Geeks.com.mx, Inc. Todos los derechos
+            reservados.
+          </p>
+          <ul class="list-unstyled d-flex socialLinks">
+            <li class="ms-3">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <!-- Termina fooder -->
-
+    <!-- Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- JS BS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

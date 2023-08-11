@@ -1,393 +1,692 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Computer Geeks - Componentes </title>
-    <link rel="shortcut icon" href="../../img/logo.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Geeks - Componentes</title>
+    <link rel="shortcut icon" href="../../img/logo.jpg" />
     <!-- Logotipos redes sociales -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- 1) BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"/>
     <!-- 2) CSS -->
-    <link rel="stylesheet" href="../../css/estilo.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../../css/estilo.css" />
+  </head>
+  <body>
     <!-- Inicia header -->
-    <header class=" header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black p-1  ">
-            <a class="navbar-brand" href="../../index.html">
-                <img class="logo" src="../../img/Logotipo.jpg" alt="Computer Geeks Logotipo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto textHeader bgPage">
-                    <li class="nav-item">
-                        <a class="nav-link active link-light espaciado" aria-current="page" href="../../index.html"> Inicio
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown espaciado">
-                        <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu bg-black">
-                            <li><a class="dropdown-item link-light" href="../productos/escritorio.html">Pc's de
-                                    escritorio</a></li>
-                            <li><a class="dropdown-item link-light" href="../productos/laptops.html">Laptops</a>
-                            </li>
-                            <li><a class="dropdown-item link-light" href="../productos/componentes.html">Componentes</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item espaciado">
-                        <a class="nav-link" href="../carrito.html">
-                            <img class="carritoBlanco" src="../../img/carritoblanco.png" alt="carritoblanco">
-                        </a>
-                    </li>
-                    <li class="nav-item espaciado">
-                        <a class="nav-link link-light " href="../contacto.html"> Contacto </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black p-1">
+        <a class="navbar-brand" href="../../index.html">
+          <img
+            class="logo"
+            src="../../img/Logotipo.jpg"
+            alt="Computer Geeks Logotipo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto textHeader bgPage">
+            <li class="nav-item">
+              <a
+                class="nav-link active link-light espaciado"
+                aria-current="page"
+                href="../../index.html"
+              >
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item dropdown espaciado">
+              <a
+                class="nav-link dropdown-toggle link-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu bg-black">
+                <li>
+                  <a
+                    class="dropdown-item link-light"
+                    href="../productos/escritorio.html"
+                    >Pc's de escritorio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item link-light"
+                    href="../productos/laptops.html"
+                    >Laptops</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item link-light"
+                    href="../productos/componentes.html"
+                    >Componentes</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item espaciado">
+              <a class="nav-link" href="../carrito.html">
+                <img
+                  class="carritoBlanco"
+                  src="../../img/carritoblanco.png"
+                  alt="carritoblanco"
+                />
+              </a>
+            </li>
+            <li class="nav-item espaciado">
+              <a class="nav-link link-light" href="../contacto.html">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <!-- Termina header -->
 
     <!-- Inicia main -->
     <main>
-        <h2 class="tituloPaginas m-3 p-3 mb-3"> Computer Geeks - Componentes </h2>
-
-        <section class="mb-3 container">
-            <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 bg-light rounded-4 ">
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente1.webp" class="card-img-top" alt="Asus Demon Slayer">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Procesador Intel Core I9-12900KF S-1700 3.20GHZ/ 16-Core/ 125W/ Sin Graficos/ Sin Fan, BX8071512900KF</h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: BX8071512900KF </li>
-                                <li> Socket: LGA1700 </li>
-                                <li> Peso: 0.18kg </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $ 8,450 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente2.webp" class="card-img-top" alt="Rosa">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Procesador Intel CI9 10900 socket 1200 2.80GHZ 10CORE 65W, BX8070110900 Sin graficos Integrados</h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: BX8070110900 </li>
-                                <li> Socket: LGA1200 </li>
-                                <li> Peso: 0.24 kg </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $ 5,250 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente3.webp" class="card-img-top" alt="Blanco">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Tarjeta Madre MSI MPG Z590 GAMING EDGE WIFI Socket 1200/ 6E/ DDR4/ M.2/ PCIE 4.0 </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: MPG Z590 GAMING EDGE WIFI </li>
-                                <li> Socket: LGA1200 </li>
-                                <li> Ram: 8GB DDR4 </li>
-                                <li> Peso: 2.00 kg </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $3,350 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente4.webp" class="card-img-top" alt="Asus Rog">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Tarjeta Madre MSI PRO B650-P WIFI Socket AM5/ ATX/ USB-C/ Displayport/ HDMI/ DDR4 </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: PRO B650-P WIFI </li>
-                                <li> Socket: AM5 </li>
-                                <li> Peso: 2.00kg </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $4,200 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente5.webp" class="card-img-top" alt="Aorus">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Tarjeta Madre Gigabyte Z690I Aorus Ultra DDR4 LGA 1700/ MINI-ITX/ 1XHDMI/ 1X DP/ 1XUSB 2.0/ 1XPCIE X16 </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: Z690I AORUS ULTRA DDR4 </li>
-                                <li> Socket: LGA1700 </li>
-                                <li> Ram: 16GB DDR4 </li>
-                                <li> Peso: 1.00 kg </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $6,550 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente6.webp" class="card-img-top" alt="Led">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Procesador Intel CI7-13700 S-1700, 16 Core, 2.1GHZ, 65W, Graficos UHD770, BX8071513700 </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: BX8071513700 </li>
-                                <li> Socket: LGA1700 </li>
-                                <li> Peso: 0.300 kg </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $8,350 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente7.webp" class="card-img-top" alt="Espartan">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Memoria DDR4 8GB 3200MHZ Adata XPG Spectrix D41, RGB, CL16, AX4U32008G16A-ST41 </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: AX4U32008G16A-ST41 </li>
-                                <li> Peso: 0.65 kg </li>
-                                <li> Ram: 16GB DDR4 </li>
-                                <li> Dimensions: 15.00cm x 6.00cm x 2.00cm </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $450 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente8.webp" class="card-img-top" alt="Asus White">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Unidad estado sólido Adata XPG Spectrix S40G 512GB/ M.2 PCI-E/ disipador RGB, AS40G-512GT-C </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: AS40G-512GT-C </li>
-                                <li> Peso: 0.40 kg </li>
-                                <li> Dimensions: 13.00cm x 2.00cm x 11.00cm </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $850 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente9.webp" class="card-img-top" alt="Cougar pro">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Unidad estado sólido SSD de 240GB Adata XPG SATA3 560MBS/520MBS, ASX950SS-240GM-C no incluye cable SATA3 </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: ASX950SS-240GM-C </li>
-                                <li> Peso: 0.12 kg </li>
-                                <li> Dimensions: 13.00cm x 14.00cm x 2.00cm </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $2,200 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente10.webp" class="card-img-top" alt="Roja">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Tarjeta de Video MSI Nvidia Geforce RTX4060TI/ 8GB Doble Ventilador/ GDDR6/ HDMI/ PCIE X8G, RTX 4060 Gaming X 8G </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: RTX 4060 GAMING X 8G </li>
-                                <li> Peso: 1.00kg </li>
-                                <li> 8GB dedicado a video  </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $6,350 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente11.webp" class="card-img-top" alt="Aurus RGB">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Tarjeta de Video Zotac Gaming Geforce RTX 4070TI 12GB Triple Ventilador GDDR6X/ HDMI/ PCIE X16, ZT-D40710Q-10P </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: ZT-D40710Q-10P </li>
-                                <li> Peso: 1.00kg </li>
-                                <li> 12 GB dedicado a video </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $14,800 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100">
-                        <img src="../../img/componente12.webp" class="card-img-top" alt="Dron RGB">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Tarjeta de Video PowerColor Radeon RX 6700 XT 12GB Doble Ventilador GDDR6/ HDMI/ PCIE X16, AXRX 6700 XT 12GBD6-3DH </h5>
-                            <hr class="my-1">
-                            <ul class="card-text">
-                                <li> Modelo: AXRX 6700 XT 12GBD6-3DH </li>
-                                <li> Peso: 1.00kg </li>
-                                <li> 12 GB dedicado a video  </li>
-                            </ul>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-center fs-5"> Precio: $7,600 MXM </li>
-                        </ul>
-                        <div class="card-footer">
-                            <a href="" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><button class="w-100 btn btn-lg colorBtn" type="submit">Ver mas detalles</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div></div>
+        <section class="container mt-3">
+            <div class="row d-flex align-items-center text-center">
+              <div class="col-ms-12 col-md-12 col-lg-7  order-md-2 order-lg-2 order-sm-2 order-2" data-aos="fade-left" data-aos-duration="2000">
+                <h2 id="sobreNosotros" class="featurette-heading fw-normal lh-1"> Componentes  <span
+                    class="text-body-secondary"> ¿Sabes cual elegir? </span></h2>
+                <p class="lead"> Existen un sin fin de componentes para todo tipos de personalidas, sin embargo ten en cuenta de checar la compatibilidad entre tus componentes, no dude en contactarnos en caso de que tengas algna duda con algun componente. <br> Si no ves algun componente no dudes en contactanos para solicitarlo a nuestros provedores.</p>
+              </div>
+              <div class="col-ms-12 col-md-12 col-lg-5 order-md-1 order-lg-1 order-sm-1 order-1" data-aos="fade-right" data-aos-duration="2000">
+                <img class="brands img-fluid" src="../../img/componentes.png" alt="Quienes Somos">
+              </div>
             </div>
         </section>
+        <hr class="featurette-divider">
+
+      <section class="mb-3 container">
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 bg-light rounded-4">
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="1500">
+              <img
+                src="../../img/componente1.webp"
+                class="card-img-top"
+                alt="Intel I9-12900KF"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Procesador Intel Core I9-12900KF S-1700 3.20GHZ/ 16-Core/
+                  125W/ Sin Graficos/ Sin Fan, BX8071512900KF
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: BX8071512900KF</li>
+                  <li>Socket: LGA1700</li>
+                  <li>Peso: 0.18kg</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $ 8,450 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="1700">
+              <img
+                src="../../img/componente2.webp"
+                class="card-img-top"
+                alt="Intel I9 10900"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Procesador Intel CI9 10900 socket 1200 2.80GHZ 10CORE 65W,
+                  BX8070110900 Sin graficos Integrados
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: BX8070110900</li>
+                  <li>Socket: LGA1200</li>
+                  <li>Peso: 0.24 kg</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $ 5,250 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="1900">
+              <img
+                src="../../img/componente3.webp"
+                class="card-img-top"
+                alt="msi MPG z590 Gaming EDGE"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Tarjeta Madre MSI MPG Z590 GAMING EDGE WIFI Socket 1200/ 6E/
+                  DDR4/ M.2/ PCIE 4.0
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: MPG Z590 GAMING EDGE WIFI</li>
+                  <li>Socket: LGA1200</li>
+                  <li>Ram: 8GB DDR4</li>
+                  <li>Peso: 2.00 kg</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $3,350 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2100">
+              <img
+                src="../../img/componente4.webp"
+                class="card-img-top"
+                alt="MSI PRO B650-P"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Tarjeta Madre MSI PRO B650-P WIFI Socket AM5/ ATX/ USB-C/
+                  Displayport/ HDMI/ DDR4
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: PRO B650-P WIFI</li>
+                  <li>Socket: AM5</li>
+                  <li>Peso: 2.00kg</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $4,200 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2300">
+              <img
+                src="../../img/componente5.webp"
+                class="card-img-top"
+                alt="Gigabyte Z690I Aorus"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Tarjeta Madre Gigabyte Z690I Aorus Ultra DDR4 LGA 1700/
+                  MINI-ITX/ 1XHDMI/ 1X DP/ 1XUSB 2.0/ 1XPCIE X16
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: Z690I AORUS ULTRA DDR4</li>
+                  <li>Socket: LGA1700</li>
+                  <li>Ram: 16GB DDR4</li>
+                  <li>Peso: 1.00 kg</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $6,550 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2500">
+              <img
+                src="../../img/componente6.webp"
+                class="card-img-top"
+                alt="Intel i7-13700"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Procesador Intel CI7-13700 S-1700, 16 Core, 2.1GHZ, 65W,
+                  Graficos UHD770, BX8071513700
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: BX8071513700</li>
+                  <li>Socket: LGA1700</li>
+                  <li>Peso: 0.300 kg</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $8,350 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2700">
+              <img
+                src="../../img/componente7.webp"
+                class="card-img-top"
+                alt="RAM DDR4 ADATA XPG"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Memoria DDR4 8GB 3200MHZ Adata XPG Spectrix D41, RGB, CL16,
+                  AX4U32008G16A-ST41
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: AX4U32008G16A-ST41</li>
+                  <li>Peso: 0.65 kg</li>
+                  <li>Ram: 16GB DDR4</li>
+                  <li>Dimensions: 15.00cm x 6.00cm x 2.00cm</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $450 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2900">
+              <img
+                src="../../img/componente8.webp"
+                class="card-img-top"
+                alt="SSD ADATA XPG Spectrix"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Unidad estado sólido Adata XPG Spectrix S40G 512GB/ M.2 PCI-E/
+                  disipador RGB, AS40G-512GT-C
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: AS40G-512GT-C</li>
+                  <li>Peso: 0.40 kg</li>
+                  <li>Dimensions: 13.00cm x 2.00cm x 11.00cm</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $850 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="3000">
+              <img
+                src="../../img/componente9.webp"
+                class="card-img-top"
+                alt="SSD 240GB Adata XPG SATA3"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Unidad estado sólido SSD de 240GB Adata XPG SATA3
+                  560MBS/520MBS, ASX950SS-240GM-C no incluye cable SATA3
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: ASX950SS-240GM-C</li>
+                  <li>Peso: 0.12 kg</li>
+                  <li>Dimensions: 13.00cm x 14.00cm x 2.00cm</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $2,200 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2700">
+              <img
+                src="../../img/componente10.webp"
+                class="card-img-top"
+                alt=" MSI Nvidia Geforce RTX4060TI"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Tarjeta de Video MSI Nvidia Geforce RTX4060TI/ 8GB Doble
+                  Ventilador/ GDDR6/ HDMI/ PCIE X8G, RTX 4060 Gaming X 8G
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: RTX 4060 GAMING X 8G</li>
+                  <li>Peso: 1.00kg</li>
+                  <li>8GB dedicado a video</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $6,350 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2500">
+              <img
+                src="../../img/componente11.webp"
+                class="card-img-top"
+                alt="Zotac Gaming Geforce RTX 4070TI"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Tarjeta de Video Zotac Gaming Geforce RTX 4070TI 12GB Triple
+                  Ventilador GDDR6X/ HDMI/ PCIE X16, ZT-D40710Q-10P
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: ZT-D40710Q-10P</li>
+                  <li>Peso: 1.00kg</li>
+                  <li>12 GB dedicado a video</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $14,800 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100" data-aos="flip-left" data-aos-duration="2300">
+              <img
+                src="../../img/componente12.webp"
+                class="card-img-top"
+                alt="PowerColor Radeon RX 6700 XT"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Tarjeta de Video PowerColor Radeon RX 6700 XT 12GB Doble
+                  Ventilador GDDR6/ HDMI/ PCIE X16, AXRX 6700 XT 12GBD6-3DH
+                </h5>
+                <hr class="my-1" />
+                <ul class="card-text">
+                  <li>Modelo: AXRX 6700 XT 12GBD6-3DH</li>
+                  <li>Peso: 1.00kg</li>
+                  <li>12 GB dedicado a video</li>
+                </ul>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center fs-5">
+                  Precio: $7,600 MXM
+                </li>
+              </ul>
+              <div class="card-footer">
+                <a
+                  href=""
+                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  ><button class="w-100 btn btn-lg colorBtn" type="submit">
+                    Ver mas detalles
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </section>
     </main>
     <!-- Termina main -->
 
-
-
-
-
-
-
     <!-- Inicia fooder -->
     <footer class="bg-black link-light">
-        <div class="container pt-3">
-            <div class="row">
-                <div class="col-6 col-md-2 mb-3 ms-auto">
-                    <h5>Secciones</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="../../index.html" class="nav-link p-0 link-light">Inicio</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="../../html/contacto.html"
-                                class="nav-link p-0 link-light">Contacto</a></li>
-                        <li class="nav-item mb-2"><a href="../../html/carrito.html" class="nav-link p-0 link-light">
-                                Carrito </a></li>
-                        <li class="nav-item mb-2"><a href="../../html/preguntasFrecuentes.html"
-                                class="nav-link p-0 link-light">FAQ</a></li>
-                    </ul>
-                </div>
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3 ms-auto">
+            <h5>Secciones</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="../../index.html" class="nav-link p-0 link-light"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../../html/contacto.html"
+                  class="nav-link p-0 link-light"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../../html/carrito.html"
+                  class="nav-link p-0 link-light"
+                >
+                  Carrito
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../../html/preguntasFrecuentes.html"
+                  class="nav-link p-0 link-light"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <div class="col-6 col-md-2 mb-3 ms-auto lineaLeft">
-                    <h5>Productos</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="../productos/escritorio.html"
-                                class="nav-link p-0 link-light">Pc' de escritorio</a></li>
-                        <li class="nav-item mb-2"><a href="../productos/laptops.html"
-                                class="nav-link p-0 link-light">Laptops</a></li>
-                        <li class="nav-item mb-2"><a href="../productos/componentes.html"
-                                class="nav-link p-0 link-light">Componentes</a></li>
-                    </ul>
-                </div>
+          <div class="col-6 col-md-2 mb-3 ms-auto lineaLeft">
+            <h5>Productos</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="../productos/escritorio.html"
+                  class="nav-link p-0 link-light"
+                  >Pc' de escritorio</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../productos/laptops.html"
+                  class="nav-link p-0 link-light"
+                  >Laptops</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="../productos/componentes.html"
+                  class="nav-link p-0 link-light"
+                  >Componentes</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <div class="col-md-5 offset-md-1 mb-3 ms-auto lineaLeft">
-                    <form>
-                        <h5 class="text-center">Boletin de noticias</h5>
-                        <p class="text-center">Mantente actualizado de promociones y noticias importantes, suscríbete a
-                            nuestro boletín.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn colorBtn" type="button">Suscribirse</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="d-flex flex-column flex-sm-row justify-content-between p-3 my-0 linea">
-                <p>&copy; 2023 Computer Geeks.com.mx, Inc. Todos los derechos reservados.</p>
-                <ul class="list-unstyled d-flex socialLinks">
-                    <li class="ms-3"><a href="https://www.facebook.com/" target="_blank"><i
-                                class="fab fa-facebook"></i></a></li>
-                    <li class="ms-3"><a href="https://www.instagram.com/" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="ms-3"><a href="https://www.twitter.com/" target="_blank"><i
-                                class="fab fa-twitter"></i></a></li>
-                    <li class="ms-3"><a href="https://www.linkedin.com/" target="_blank"><i
-                                class="fab fa-linkedin"></i></a></li>
-                </ul>
-            </div>
+          <div class="col-md-5 offset-md-1 mb-3 ms-auto lineaLeft">
+            <form>
+              <h5 class="text-center">Boletin de noticias</h5>
+              <p class="text-center">
+                Mantente actualizado de promociones y noticias importantes,
+                suscríbete a nuestro boletín.
+              </p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn colorBtn" type="button">Suscribirse</button>
+              </div>
+            </form>
+          </div>
         </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between p-3 my-0 linea"
+        >
+          <p>
+            &copy; 2023 Computer Geeks.com.mx, Inc. Todos los derechos
+            reservados.
+          </p>
+          <ul class="list-unstyled d-flex socialLinks">
+            <li class="ms-3">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <!-- Termina fooder -->
-
+    <!-- Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- JS BS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
