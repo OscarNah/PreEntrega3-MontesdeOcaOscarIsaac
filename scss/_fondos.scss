@@ -1,0 +1,82 @@
+.headers{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+
+.headerIndex{
+    @extend .headers;
+    background-image: url(../img/fondodesktop.jpg);
+    background-position: 70% 80%;
+    height: 100vh;
+}
+.contactanos{
+    @extend .headers;
+    background-image: url(/img/contactanos.jpg);
+    background-position: 15% 55%;
+    height: 30vh;
+}
+.headerCarrito {
+    @extend .headers;
+    background-image: url(../img/bannercompras.jpg);
+    background-position: 15% 45%;
+    height: 20vh;
+}
+.headerFaqs{
+    @extend .headers;
+    background-image: url(../img/faqBanner.png);
+    background-position: 15% 45%;
+    height: 30vh;
+}
+.headerContacto{
+    @extend .headers;
+    background-image: url(../img/bannercontacto.jpg);
+    background-position: 15% 30%;
+    height: 25vh;
+}
+.headerEscritorio{
+    @extend .headers;
+    background-image: url(/img/BannerEscritorio.jpeg);
+    background-position: 85% 60%;
+    height: 75vh;
+}
+.textoBgHeader {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 3%;
+    font-size: 1rem;
+    font-size: 2rem;
+    font-style: oblique;
+    z-index: 0;
+}
+.textoBg {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: 3%;
+    font-size: 1rem;
+    font-size: 2rem;
+    font-style: oblique;
+    z-index: 0;
+}
+.botonBgHeader {
+    display: flex;
+    position: absolute;
+    margin-top: 1rem;
+    background-color: #eaac7f;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.botonBgHeader:hover {
+    background-color: #E1C373;
+    color: white;
+}
