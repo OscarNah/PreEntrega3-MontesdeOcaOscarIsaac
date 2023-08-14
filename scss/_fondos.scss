@@ -15,7 +15,7 @@
 }
 .contactanos{
     @extend .headers;
-    background-image: url(/img/contactanos.jpg);
+    background-image: url(../img/contactanos.jpg);
     background-position: 15% 55%;
     height: 30vh;
 }
@@ -39,7 +39,7 @@
 }
 .headerEscritorio{
     @extend .headers;
-    background-image: url(/img/BannerEscritorio.jpeg);
+    background-image: url(../img/BannerEscritorio.jpeg);
     background-position: 85% 60%;
     height: 75vh;
 }
