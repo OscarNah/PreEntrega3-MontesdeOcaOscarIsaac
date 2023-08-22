@@ -1,3 +1,4 @@
+/* Estilo */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +7,14 @@
 
 html, body {
   width: 100%;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* Variables */
 /* Header */
 .logo {
   width: 250px;
@@ -37,6 +39,7 @@ html {
   margin-right: 2rem;
 }
 
+/* Fondos */
 .headers, .headerEscritorio, .headerContacto, .headerFaqs, .headerCarrito, .contactanos, .headerIndex {
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,8 +57,8 @@ html {
 
 .contactanos {
   background-image: url(../img/contactanos.jpg);
-  background-position: 15% 55%;
-  height: 30vh;
+  background-position: 55% 85%;
+  height: 40vh;
 }
 
 .headerCarrito {
@@ -108,7 +111,6 @@ html {
   display: flex;
   position: absolute;
   margin-top: 1rem;
-  background-color: #eaac7f;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
@@ -123,6 +125,7 @@ html {
   color: white;
 }
 
+/* Globales */
 .featurette-divider {
   margin: 1rem 0;
 }
@@ -148,12 +151,32 @@ html {
   background-color: #E1C373;
 }
 
+.centrar {
+  flex: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.fondoClaro {
+  background-color: rgba(237, 237, 237, 0.286);
+  border-radius: 1%;
+}
+
+.iconosBox {
+  font-size: 5rem;
+  color: black;
+}
+
+.estiloListas {
+  list-style: none;
+}
+
 .linea {
-  border-top: 1px solid #b18f5a;
+  border-top: 1px solid #B18F5A;
 }
 
 .lineaLeft {
-  border-left: 1px solid #b18f5a;
+  border-left: 1px solid #B18F5A;
   padding: 0px 40px;
 }
 
@@ -170,13 +193,14 @@ html {
   transition: all 0.5s ease;
 }
 .socialLinks h3 {
-  color: #b18f5a;
+  color: #B18F5A;
 }
 
 .socialLinks a:hover {
-  background-color: #b18f5a;
+  background-color: #B18F5A;
 }
 
+/* Contacto */
 .contactoFormulario {
   background-color: #ECEFF1;
   border-radius: 1%;

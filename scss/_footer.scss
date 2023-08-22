@@ -1,9 +1,9 @@
 .linea {
-  border-top: 1px solid #b18f5a;
+  border-top: 1px solid $colorPg;
 }
 
 .lineaLeft {
-  border-left: 1px solid #b18f5a;
+  border-left: 1px solid $colorPg;
   padding: 0px 40px;
 }
 
@@ -21,9 +21,9 @@
     transition: all 0.5s ease;
   }
   h3 {
-    color: #b18f5a;
+    color:$colorPg;
   }
 }
 .socialLinks a:hover {
-  background-color: #b18f5a;
+  background-color: $colorPg;
 }
